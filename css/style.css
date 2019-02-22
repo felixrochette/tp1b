@@ -1150,38 +1150,70 @@ body {
   background-color: black;
 }
 
-p {
-  font-family: "Acme-Regular";
-}
-
 .img1 {
   margin-top: 25%;
   height: 21vw;
+  -webkit-box-shadow: 10px 10px 5px #050505;
+          box-shadow: 10px 10px 5px #050505;
+  border-radius: 20px;
 }
 
 .img2 {
   margin-top: 25%;
   height: 21vw;
+  -webkit-box-shadow: 10px 10px 5px #050505;
+          box-shadow: 10px 10px 5px #050505;
+  border-radius: 20px;
 }
 
 .img3 {
   margin-top: 25%;
   height: 21vw;
+  -webkit-box-shadow: 10px 10px 5px #050505;
+          box-shadow: 10px 10px 5px #050505;
+  border-radius: 20px;
 }
 
 .img4 {
   margin-top: 25%;
   height: 21vw;
+  -webkit-box-shadow: 10px 10px 5px #050505;
+          box-shadow: 10px 10px 5px #050505;
+  border-radius: 20px;
 }
 
 .img5 {
   margin-top: 25%;
   height: 21vw;
+  -webkit-box-shadow: 10px 10px 5px #050505;
+          box-shadow: 10px 10px 5px #050505;
+  border-radius: 20px;
 }
 
 .img6 {
   margin-top: 25%;
   height: 21vw;
+  -webkit-box-shadow: 10px 10px 5px #050505;
+          box-shadow: 10px 10px 5px #050505;
+  border-radius: 20px;
+}
+
+.content1 {
+  -webkit-box-shadow: 10px 10px 5px #050505;
+          box-shadow: 10px 10px 5px #050505;
+  border-radius: 10px;
+}
+
+.content2 {
+  -webkit-box-shadow: 10px 10px 5px #050505;
+          box-shadow: 10px 10px 5px #050505;
+  border-radius: 10px;
+}
+
+.content3 {
+  -webkit-box-shadow: 10px 10px 5px #050505;
+          box-shadow: 10px 10px 5px #050505;
+  border-radius: 10px;
 }
 
 .troisd {
@@ -1212,12 +1244,27 @@ p {
 .mainPic {
   padding-left: 3%;
   padding-top: 0%;
+  border-radius: 25px;
 }
 
 .titre {
   padding-left: 70%;
   display: inline-block;
   font-size: 200%;
+}
+
+font-face {
+  font-family: Merriweather-Italic;
+  src: url(Merriweather-Italic.ttf);
+}
+
+.fond {
+  z-index: -1;
+  background-color: blue;
+}
+
+p {
+  font-family: Merriweather-Italic;
 }
 
 .footer {
