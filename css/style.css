@@ -979,7 +979,6 @@ body {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: img1;
-  height: 100vw;
 }
 
 .img2 {
@@ -1149,6 +1148,10 @@ body {
 
 .header {
   background-color: black;
+}
+
+p {
+  font-family: "Acme-Regular";
 }
 
 .img1 {
