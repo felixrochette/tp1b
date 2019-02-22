@@ -979,6 +979,7 @@ body {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: img1;
+  height: 100vw;
 }
 
 .img2 {
@@ -1075,6 +1076,13 @@ body {
         grid-template-areas: "header header" "img1 img2" "img3 img4" "img5 img6" "content1 content1" "content2 content2" "content3 content3" "footer footer";
     min-width: 500px;
   }
+  .mainPic {
+    padding-left: 0%;
+  }
+  .titre {
+    padding-left: 500px;
+    font-size: 200%;
+  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -1141,20 +1149,72 @@ body {
 
 .header {
   background-color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+}
+
+.img1 {
+  margin-top: 25%;
+  height: 21vw;
+}
+
+.img2 {
+  margin-top: 25%;
+  height: 21vw;
+}
+
+.img3 {
+  margin-top: 25%;
+  height: 21vw;
+}
+
+.img4 {
+  margin-top: 25%;
+  height: 21vw;
+}
+
+.img5 {
+  margin-top: 25%;
+  height: 21vw;
+}
+
+.img6 {
+  margin-top: 25%;
+  height: 21vw;
+}
+
+.troisd {
+  margin-top: 4%;
+}
+
+.gros {
+  margin-top: 6%;
+}
+
+.chat {
+  margin-top: 2%;
+  padding-left: 10%;
+}
+
+.robot {
+  margin-top: 12%;
+}
+
+.desert {
+  margin-top: 12%;
+}
+
+.page {
+  margin-top: 12%;
 }
 
 .mainPic {
-  padding-left: 0%;
+  padding-left: 3%;
   padding-top: 0%;
 }
 
 .titre {
+  padding-left: 70%;
   display: inline-block;
-  text-align: center;
-  font-size: 585%;
+  font-size: 200%;
 }
 
 .footer {

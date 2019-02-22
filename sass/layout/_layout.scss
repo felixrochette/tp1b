@@ -27,6 +27,7 @@ body {
 	}
 
 	.boutonBurger {
+		
 		background: linear-gradient(to bottom, #E84545 0%, #E84545 20%, transparent 20%, transparent 40%, #E84545 40%, #E84545 60%, transparent 60%, transparent 80%, #E84545 80%, #E84545 100%);
 		height: 48px;
 		width: 48px;
@@ -70,22 +71,32 @@ body {
 
 .img1 {
 	grid-area: img1;
+	height: 100vw;
+
+	
 }
 
 .img2 {
 	grid-area: img2;
+	
+
+	
 }
 .img3 {
 	grid-area: img3;
+
 }
 .img4 {
 	grid-area: img4;
+	
 }
 .img5 {
 	grid-area: img5;
+	
 }
 .img6 {
 	grid-area: img6;
+	
 }
 
 .content1 {
@@ -162,6 +173,20 @@ body {
 
 		min-width: 500px;
 	}
+	.mainPic{
+		padding-left: 0%;
+	}
+	
+	.titre {
+		
+	
+		
+		padding-left: 500px;
+		font-size:200%;
+	
+	}
+
+
 }
 
 @media only screen and (min-width: 900px) {
@@ -229,22 +254,84 @@ body {
 
 .header{
 	background-color: rgb(0, 0, 0);
-	display:flex;
+}
+	.img1 {
+		
+		margin-top: 25%;
+		height: 21vw;
+	}
+	
+	.img2 {
+	
+		margin-top: 25%;
+		height: 21vw;
+	}
+	.img3 {
+		
+		margin-top: 25%;
+		height: 21vw;
+	}
+	.img4 {
+	
+		margin-top: 25%;
+		height: 21vw;
+	}
+	.img5 {
+		
+		margin-top: 25%;
+		height: 21vw;
+	}
+	.img6 {
+		
+		margin-top: 25%;
+		height: 21vw;
+	}
+	
 	
 
+	
+
+.troisd{
+	margin-top: 4%;
+}
+.gros{
+	
+	margin-top: 6%;
+}
+.chat{
+	margin-top: 2%;
+	padding-left: 10%;
+	
+}
+
+.robot{
+	margin-top: 12%;
+	
+	
+}
+.desert{
+	margin-top: 12%;
+	
+	
+}
+
+.page{
+	margin-top: 12%;
+	
 	
 }
 
 .mainPic{
-	padding-left: 0%;
+	padding-left: 3%;
 	padding-top: 0%;
 }
 
 .titre {
 	
+	padding-left: 70%;
 	display: inline-block;
-	text-align: center;
-	font-size:585%;
+	
+	font-size:200%;
 
 }
 .footer {
