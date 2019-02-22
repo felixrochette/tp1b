@@ -1065,14 +1065,14 @@ body {
   display: grid;
   width: 100vw;
   grid-gap: 1em;
-      grid-template-areas: "header" "img1" "img2" "img3" "img4" "img5" "img6" "content1" "content2" "content3" "footer";
+      grid-template-areas: "header" "img1" "img2" "img3" "img4" "img5" "img6" "content1" "content2" "content3" "footer";
 }
 
 @media only screen and (min-width: 500px) {
   .conteneur {
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
-        grid-template-areas: "header header" "img1 img2" "img3 img4" "img5 img6" "content1 content1" "content2 content2" "content3 content3" "footer footer";
+        grid-template-areas: "header header" "img1 img2" "img3 img4" "img5 img6" "content1 content1" "content2 content2" "content3 content3" "footer footer";
     min-width: 500px;
   }
   .mainPic {
@@ -1133,7 +1133,7 @@ body {
     grid-gap: 20px;
     -ms-grid-columns: 1fr 2fr 1fr;
         grid-template-columns: 1fr 2fr 1fr;
-        grid-template-areas: "header  header  header" " img1 content1 img2" "img3 content2 img4" "img5 content3 img6" "footer  footer  footer";
+        grid-template-areas: "header  header  header" " img1 content1 img2" "img3 content2 img4" "img5 content3 img6" "footer  footer  footer";
     max-width: 100%;
   }
 }
@@ -1153,46 +1153,72 @@ body {
 .img1 {
   margin-top: 25%;
   height: 21vw;
+<<<<<<< HEAD
   -webkit-box-shadow: 10px 10px 5px #050505;
           box-shadow: 10px 10px 5px #050505;
   border-radius: 20px;
+=======
+  -webkit-box-shadow: 10px 10px 5px #000000;
+          box-shadow: 10px 10px 5px #000000;
+>>>>>>> fontchange
 }
 
 .img2 {
   margin-top: 25%;
   height: 21vw;
+<<<<<<< HEAD
   -webkit-box-shadow: 10px 10px 5px #050505;
           box-shadow: 10px 10px 5px #050505;
   border-radius: 20px;
+=======
+  -webkit-box-shadow: 10px 10px 5px #000000;
+          box-shadow: 10px 10px 5px #000000;
+>>>>>>> fontchange
 }
 
 .img3 {
   margin-top: 25%;
   height: 21vw;
+<<<<<<< HEAD
   -webkit-box-shadow: 10px 10px 5px #050505;
           box-shadow: 10px 10px 5px #050505;
   border-radius: 20px;
+=======
+  -webkit-box-shadow: 10px 10px 5px #000000;
+          box-shadow: 10px 10px 5px #000000;
+>>>>>>> fontchange
 }
 
 .img4 {
   margin-top: 25%;
   height: 21vw;
+<<<<<<< HEAD
   -webkit-box-shadow: 10px 10px 5px #050505;
           box-shadow: 10px 10px 5px #050505;
   border-radius: 20px;
+=======
+  -webkit-box-shadow: 10px 10px 5px #000000;
+          box-shadow: 10px 10px 5px #000000;
+>>>>>>> fontchange
 }
 
 .img5 {
   margin-top: 25%;
   height: 21vw;
+<<<<<<< HEAD
   -webkit-box-shadow: 10px 10px 5px #050505;
           box-shadow: 10px 10px 5px #050505;
   border-radius: 20px;
+=======
+  -webkit-box-shadow: 10px 10px 5px #000000;
+          box-shadow: 10px 10px 5px #000000;
+>>>>>>> fontchange
 }
 
 .img6 {
   margin-top: 25%;
   height: 21vw;
+<<<<<<< HEAD
   -webkit-box-shadow: 10px 10px 5px #050505;
           box-shadow: 10px 10px 5px #050505;
   border-radius: 20px;
@@ -1214,6 +1240,25 @@ body {
   -webkit-box-shadow: 10px 10px 5px #050505;
           box-shadow: 10px 10px 5px #050505;
   border-radius: 10px;
+=======
+  -webkit-box-shadow: 10px 10px 5px #000000;
+          box-shadow: 10px 10px 5px #000000;
+}
+
+.content1 {
+  -webkit-box-shadow: 10px 10px 5px #000000;
+          box-shadow: 10px 10px 5px #000000;
+}
+
+.content2 {
+  -webkit-box-shadow: 10px 10px 5px #000000;
+          box-shadow: 10px 10px 5px #000000;
+}
+
+.content3 {
+  -webkit-box-shadow: 10px 10px 5px #000000;
+          box-shadow: 10px 10px 5px #000000;
+>>>>>>> fontchange
 }
 
 .troisd {
