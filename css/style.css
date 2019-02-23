@@ -981,10 +981,24 @@ body {
   grid-area: img1;
 }
 
+.img1 > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 100%;
+  border: 3px solid #f00;
+}
+
 .img2 {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   grid-area: img2;
+}
+
+.img2 > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 100%;
+  border: 3px solid #f00;
 }
 
 .img3 {
@@ -993,10 +1007,24 @@ body {
   grid-area: img3;
 }
 
+.img3 > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 100%;
+  border: 3px solid #f00;
+}
+
 .img4 {
   -ms-grid-row: 5;
   -ms-grid-column: 1;
   grid-area: img4;
+}
+
+.img4 > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 100%;
+  border: 3px solid #f00;
 }
 
 .img5 {
@@ -1005,10 +1033,24 @@ body {
   grid-area: img5;
 }
 
+.img5 > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 100%;
+  border: 3px solid #f00;
+}
+
 .img6 {
   -ms-grid-row: 7;
   -ms-grid-column: 1;
   grid-area: img6;
+}
+
+.img6 > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 100%;
+  border: 3px solid #f00;
 }
 
 .content1 {
@@ -1017,10 +1059,22 @@ body {
   grid-area: content1;
 }
 
+.content1 > p {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 100%;
+}
+
 .content2 {
   -ms-grid-row: 9;
   -ms-grid-column: 1;
   grid-area: content2;
+}
+
+.content2 > p {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 100%;
 }
 
 .content3 {
@@ -1029,12 +1083,23 @@ body {
   grid-area: content3;
 }
 
+.content3 > p {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 100%;
+}
+
 .header {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: header;
 }
 
+/*.header>img{
+	object-fit: cover;
+	max-height: 100%;
+	
+}*/
 .footer {
   -ms-grid-row: 11;
   -ms-grid-column: 1;
@@ -1042,7 +1107,7 @@ body {
 }
 
 .conteneur {
-  background-color: #dab333;
+  background-color: #443e2c;
   color: #444;
 }
 
@@ -1065,21 +1130,48 @@ body {
   display: grid;
   width: 100vw;
   grid-gap: 1em;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  grid-auto-rows: 10vh;
       grid-template-areas: "header" "img1" "img2" "img3" "img4" "img5" "img6" "content1" "content2" "content3" "footer";
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .titre {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.header img {
+  display: block;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  padding-right: 10px;
+  border-radius: 50%;
 }
 
 @media only screen and (min-width: 500px) {
   .conteneur {
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
+    grid-auto-rows: auto auto;
         grid-template-areas: "header header" "img1 img2" "img3 img4" "img5 img6" "content1 content1" "content2 content2" "content3 content3" "footer footer";
     min-width: 500px;
   }
-  .mainPic {
-    padding-left: 0%;
-  }
   .titre {
-    padding-left: 500px;
     font-size: 200%;
   }
 }
@@ -1133,6 +1225,7 @@ body {
     grid-gap: 20px;
     -ms-grid-columns: 1fr 2fr 1fr;
         grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: auto;
         grid-template-areas: "header  header  header" " img1 content1 img2" "img3 content2 img4" "img5 content3 img6" "footer  footer  footer";
     max-width: 100%;
   }
@@ -1153,75 +1246,51 @@ body {
 .img1 {
   margin-top: 25%;
   height: 21vw;
-<<<<<<< HEAD
-  -webkit-box-shadow: 10px 10px 5px #050505;
-          box-shadow: 10px 10px 5px #050505;
   border-radius: 20px;
-=======
   -webkit-box-shadow: 10px 10px 5px #000000;
           box-shadow: 10px 10px 5px #000000;
->>>>>>> fontchange
 }
 
 .img2 {
   margin-top: 25%;
   height: 21vw;
-<<<<<<< HEAD
-  -webkit-box-shadow: 10px 10px 5px #050505;
-          box-shadow: 10px 10px 5px #050505;
   border-radius: 20px;
-=======
   -webkit-box-shadow: 10px 10px 5px #000000;
           box-shadow: 10px 10px 5px #000000;
->>>>>>> fontchange
 }
 
 .img3 {
   margin-top: 25%;
   height: 21vw;
-<<<<<<< HEAD
-  -webkit-box-shadow: 10px 10px 5px #050505;
-          box-shadow: 10px 10px 5px #050505;
   border-radius: 20px;
-=======
   -webkit-box-shadow: 10px 10px 5px #000000;
           box-shadow: 10px 10px 5px #000000;
->>>>>>> fontchange
 }
 
 .img4 {
   margin-top: 25%;
   height: 21vw;
-<<<<<<< HEAD
-  -webkit-box-shadow: 10px 10px 5px #050505;
-          box-shadow: 10px 10px 5px #050505;
   border-radius: 20px;
-=======
   -webkit-box-shadow: 10px 10px 5px #000000;
           box-shadow: 10px 10px 5px #000000;
->>>>>>> fontchange
 }
 
 .img5 {
   margin-top: 25%;
   height: 21vw;
-<<<<<<< HEAD
-  -webkit-box-shadow: 10px 10px 5px #050505;
-          box-shadow: 10px 10px 5px #050505;
   border-radius: 20px;
-=======
   -webkit-box-shadow: 10px 10px 5px #000000;
           box-shadow: 10px 10px 5px #000000;
->>>>>>> fontchange
 }
 
 .img6 {
   margin-top: 25%;
   height: 21vw;
-<<<<<<< HEAD
   -webkit-box-shadow: 10px 10px 5px #050505;
           box-shadow: 10px 10px 5px #050505;
   border-radius: 20px;
+  -webkit-box-shadow: 10px 10px 5px #000000;
+          box-shadow: 10px 10px 5px #000000;
 }
 
 .content1 {
@@ -1240,52 +1309,40 @@ body {
   -webkit-box-shadow: 10px 10px 5px #050505;
           box-shadow: 10px 10px 5px #050505;
   border-radius: 10px;
-=======
-  -webkit-box-shadow: 10px 10px 5px #000000;
-          box-shadow: 10px 10px 5px #000000;
 }
 
-.content1 {
-  -webkit-box-shadow: 10px 10px 5px #000000;
-          box-shadow: 10px 10px 5px #000000;
+/*.troisd{
+	margin-top: 4%;
+	
+}
+.gros{
+	
+	margin-top: 6%;
+	
+}
+.chat{
+	margin-top: 2%;
+	padding-left: 10%;
+	
 }
 
-.content2 {
-  -webkit-box-shadow: 10px 10px 5px #000000;
-          box-shadow: 10px 10px 5px #000000;
+.robot{
+	margin-top: 12%;
+	
+	
+}
+.desert{
+	margin-top: 12%;
+	
+	
 }
 
-.content3 {
-  -webkit-box-shadow: 10px 10px 5px #000000;
-          box-shadow: 10px 10px 5px #000000;
->>>>>>> fontchange
+.page{
+	margin-top: 12%;
+	
+	
 }
-
-.troisd {
-  margin-top: 4%;
-}
-
-.gros {
-  margin-top: 6%;
-}
-
-.chat {
-  margin-top: 2%;
-  padding-left: 10%;
-}
-
-.robot {
-  margin-top: 12%;
-}
-
-.desert {
-  margin-top: 12%;
-}
-
-.page {
-  margin-top: 12%;
-}
-
+*/
 .mainPic {
   padding-left: 3%;
   padding-top: 0%;
@@ -1293,7 +1350,6 @@ body {
 }
 
 .titre {
-  padding-left: 70%;
   display: inline-block;
   font-size: 200%;
 }
@@ -1301,11 +1357,6 @@ body {
 font-face {
   font-family: Merriweather-Italic;
   src: url(Merriweather-Italic.ttf);
-}
-
-.fond {
-  z-index: -1;
-  background-color: blue;
 }
 
 p {
