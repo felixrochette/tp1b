@@ -13,7 +13,7 @@ export class AnimLettre {
      */
 
     constructor(lesLettres, elmParent, fonction) {
-        this.tabCouleur = ['#CC231E', '#235E6F', '#009900', '#34A65F', '#0F8A5F', '#F5624D'];
+        this.tabCouleur = ['white', 'white', 'white', 'white', 'white', 'white'];
         this.lesLettres = lesLettres
         this.elmParent = elmParent;
         this.fonction = fonction
@@ -35,7 +35,7 @@ animerLettre(lesLettres) {
             'div',
             uneLettre,
             '')
-        elmlettre.style.animationDelay = (i * 0.5) + "s";
+        elmlettre.style.animationDelay = (i * 0.1) + "s";
         elmlettre.style.color = this.tabCouleur[(i++) % 6]
     }
 

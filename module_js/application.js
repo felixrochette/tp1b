@@ -5,7 +5,7 @@ import {AnimLettre} from './AnimLettre.js' //
 
 
 /* l'élement de la page qui contiendra les éléments créés dynamiquement */
-let elmHeader = document.querySelector('.content1')
+let elmHeader = document.querySelector('.animspace')
 let intro = new Introduction(contenuIntro, elmHeader, animationLettre)
 
 // debutQuestionnaire()
@@ -14,7 +14,7 @@ function animationLettre()
 {
     /* Une fois que l'animation des mots est terminé la fonction animLettre s'exécutera */ 
 	console.log('debut animation lettre')
-	const lesLettres = 'Veille-technologique'
+	const lesLettres = 'FélixRochette'
  	let  monAnimLettre = new AnimLettre(lesLettres, elmHeader, finAnim)	
 }
 
