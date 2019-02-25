@@ -146,6 +146,8 @@ body {
 	
 	object-fit: cover;
 	max-height: 100%;
+	max-width: 100%;
+
 	
 	
 	
@@ -217,6 +219,7 @@ body {
 .conteneur {
 		/*Sa largeur est fixée à 100%*/
 		width: 100vw;
+		max-height:auto;
 		/*Propriété comme item flex - ne peut rétrécir*/
 		flex: 1 0 100%;
 		/*Conteneur flex en colonne pour ses enfants*/
@@ -355,6 +358,7 @@ body {
 	border-radius: 5px;
 	padding: 10px;
 	font-size: 150%;
+	
 	
 }
 
