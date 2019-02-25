@@ -37,6 +37,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 html {
   line-height: 1.15;
   /* 1 */
@@ -1106,6 +1107,31 @@ body {
   color: #1f1d1d;
 }
 
+@-webkit-keyframes example {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #381311;
+  }
+}
+
+@keyframes example {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: #381311;
+  }
+}
+
+.conteneur :hover {
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
 /* conteneur est un élément flex et en même temps un conteneur grid */
 .conteneur {
   /*Sa largeur est fixée à 100%*/
@@ -1350,13 +1376,8 @@ body {
   font-size: 200%;
 }
 
-font-face {
-  font-family: Merriweather-Italic;
-  src: url(Merriweather-Italic.ttf);
-}
-
-p {
-  font-family: Merriweather-Italic;
+body {
+  font-family: 'Open Sans',serif;
 }
 
 .footer {

@@ -215,6 +215,15 @@ body {
 	color: rgb(31, 29, 29);
 	
 }
+@keyframes example {
+	from {background-color: rgb(0, 0, 0);}
+	to {background-color: rgb(56, 19, 17);}
+  }
+.conteneur :hover{
+	animation-name: example;
+  animation-duration: 4s;
+	
+}
 /* conteneur est un élément flex et en même temps un conteneur grid */
 .conteneur {
 		/*Sa largeur est fixée à 100%*/
@@ -362,6 +371,8 @@ body {
 	
 }
 
+
+
 .header{
 	background-color: rgb(0, 0, 0);
 }
@@ -483,16 +494,11 @@ body {
 	font-size:200%;
 
 }
-font-face {
-	font-family: Merriweather-Italic;
-	src: url(Merriweather-Italic.ttf);
-  }
-  
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-  p {
-	font-family: Merriweather-Italic;
-  } 
-  
+body{
+   font-family: 'Open Sans',serif;
+}
 .footer {
 	background-color: rgb(0, 0, 0);
 }
