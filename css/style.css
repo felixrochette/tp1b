@@ -678,25 +678,25 @@ a:hover, a:active {
 }
 
 .rectangle:nth-child(1) {
-  background-color: #5a5a5a;
+  background-color: #000000;
   -webkit-animation: anim1 0.5s;
           animation: anim1 0.5s;
 }
 
 .rectangle:nth-child(2) {
-  background-color: #5a5753;
+  background-color: #000000;
   -webkit-animation: anim2 0.5s 0.5s backwards;
           animation: anim2 0.5s 0.5s backwards;
 }
 
 .rectangle:nth-child(3) {
-  background-color: #5c5c5c;
+  background-color: #000000;
   -webkit-animation: anim3 0.5s 1s backwards;
           animation: anim3 0.5s 1s backwards;
 }
 
 .rectangle:nth-child(4) {
-  background-color: #585a5a;
+  background-color: #000000;
   font-size: 1em;
   /* max-height : 20vh;*/
   -webkit-animation: animGo 1s 1.5s backwards;
